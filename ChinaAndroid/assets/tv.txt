@@ -1,0 +1,431 @@
+{"video":
+			[{"videoNamePerson":"CCTV",
+						"videos":[  
+									 {"title":"CCTV-1(高速通道)","url":"http://cntv.itv.doplive.com.cn/live591/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv1.gif","flags":"6"}
+									 ,{"title":"CCTV-2(高速通道)","url":"http://cntv.itv.doplive.com.cn/live592/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv2.gif","flags":"6"}
+									 ,{"title":"CCTV-3(高速通道)","url":"http://cntv.itv.doplive.com.cn/live593/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv3.gif","flags":"6"}
+									 ,{"title":"CCTV-4(高速通道)","url":"http://cntv.itv.doplive.com.cn/live594/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv4.gif","flags":"6"}
+									 ,{"title":"CCTV-5(高速通道)","url":"http://cntv.itv.doplive.com.cn/live595/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv5.gif","flags":"6"}
+									 ,{"title":"CCTV-6(高速通道)","url":"http://cntv.itv.doplive.com.cn/live512/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv6.gif","flags":"6"}
+									 ,{"title":"CCTV-7(高速通道)","url":"http://cntv.itv.doplive.com.cn/live597/index_900k.m3u8","image":"http://i0597.com/cntv/images/cctv7.gif","flags":"6"}
+									 ,{"title":"CCTV-8(高速通道)","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV8&1.m3u8","image":"http://i0597.com/cntv/images/cctv8.gif","flags":"6"}
+									 ,{"title":"CCTV-9(高速通道)","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV9&1.m3u8","image":"http://i0597.com/cntv/images/cctv9.gif","flags":"6"}
+									 ,{"title":"CCTV-10(高速通道)","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV10&1.m3u8","image":"http://i0597.com/cntv/images/cctv10.gif","flags":"6"}
+									 ,{"title":"CCTV-11(高速通道)","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV11&1.m3u8","image":"http://i0597.com/cntv/images/cctv11.gif","flags":"6"}
+									 ,{"title":"CCTV-12(高速通道)","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV12&1.m3u8","image":"http://i0597.com/cntv/images/cctv12.gif","flags":"6"}
+									 ,{"title":"CCTV-13(高速通道)","url":"http://cntv.itv.doplive.com.cn/live603/index_900k.m3u8","image":"http://i0597.com/cntv/images/cctv13.gif","flags":"6"}
+									 ,{"title":"CCTV-3（广东联通）","url":"rtsp://l.m.cztv.com:554/cctv3/live_ld","image":""}
+									 ,{"title":"CCTV-5（广东联通）","url":"rtsp://l.m.cztv.com:554/cctv5/live_ld","image":""}
+									 ,{"title":"CCTV-8（广东联通）","url":"rtsp://l.m.cztv.com:554/cctv8/live_ld","image":""}
+									 ,{"title":"CCTV-1（广东电信）","url":"rtsp://113.108.220.53:1935/live/cctv1.sdp","image":""}
+									 ,{"title":"CCTV-2（广东电信）","url":"rtsp://113.108.220.53:1935/live/cctv2.sdp","image":""}
+									 ,{"title":"CCTV-4（广东电信）","url":"rtsp://113.108.220.53:1935/live/cctv4.sdp","image":""}
+									 ,{"title":"CCTV-13（广东电信）","url":"rtsp://113.108.220.53:1935/live/cctv13.sdp","image":""}
+									  ] 
+	
+			},{"videoNamePerson":"各省级电视台",
+									"videos":[{"title":"湖南卫视","url":"http://tvm.3g.cntv.cn/approve/live?channel=HuNanTV&type=iphone&t=m3u8","image":""}
+													 ,{"title":"江苏卫视","url":"http://play.api.pptv.com/m3u8-300429.m3u8?key=VFX4vJVfqMA9ihRKiauTp/3aPQENZ2/B","image":""}
+													 ,{"title":"东方卫视","url":"http://3glivehntv.doplive.com.cn/live330/index_128k.m3u8?date=20120302191236&uid=0&rnd=2012030219123679157&deviceid=107&key=a115fdb15243fbf4f55184cbd633a0cb&count=1","image":""}
+													 ,{"title":"浙江卫视","url":"http://cms.doplive.com.cn/live347/index_multi.m3u8?date=20120302220001&uid=0&rnd=2012030222000185729&deviceid=123&key=c6f812e83b541dbde2d1d2497f73bec3&count=1330675970","image":""}
+													 ,{"title":"安徽卫视","url":"http://tvm.3g.cntv.cn/approve/live?channel=AnHuiTV&type=ipad$xx=m3u8","image":""}
+													 ,{"title":"江西卫视","url":"http://live.itv.doplive.com.cn/live319/index_128k.m3u8?date=20120302220001&uid=0&rnd=2012030222000167413&deviceid=123&key=b13e07c481bb3023b2606f06470349e3&count=1330675562","image":""}
+													 ,{"title":"贵州卫视","url":"http://live.itv.doplive.com.cn/live310/index_128k.m3u8?date=20120302220001&uid=0&rnd=2012030222000184104&deviceid=123&key=53c7387b9b78a75e6a0ac593b3f23ed9&count=1330675374","image":""}
+													 ,{"title":"黑龙江卫视","url":"http://tvm.3g.cntv.cn/approve/live?channel=HeiLongJiangTV&type=ipad&xx=m3u8","image":""}
+													 ,{"title":"广东体育","url":"http://tvm.3g.cntv.cn/approve/live?channel=GDSport&type=ipad&xx=m3u8","image":""}
+													 ,{"title":"深圳卫视","url":"http://play.api.pptv.com/m3u8-300188.m3u8?key=yGlm39KjK3MDhfB5to89Hc2eeMv4rKbk","image":""}
+													 ,{"title":"北京卫视","url":"http://tvm.3g.cntv.cn/approve/live?channel=BTV1&type=ipad&xx=m3u8","image":""}
+													 ,{"title":"四川卫视","url":"http://play.api.pptv.com/m3u8-300177.m3u8?key=yGlm39KjK3MDhfB5to89Hc2eeMv4rKbk","image":""}
+													 ,{"title":"山东卫视","url":"http://play.api.pptv.com/m3u8-300161.m3u8?key=yGlm39KjK3MDhfB5to89Hc2eeMv4rKbk","image":""}
+													 ,{"title":"甘肃卫视","url":"http://tvm.3g.cntv.cn/approve/live?channel=GanSuTV&type=ipad&t=m3u8","image":""}
+													 ,{"title":"东南卫视","url":"http://play.api.pptv.com/m3u8-300175.m3u8?key=VFX4vJVfqMA9ihRKiauTp/3aPQENZ2/B","image":""}
+													 ,{"title":"宁夏卫视","url":"http://live.itv.doplive.com.cn/live324/index_128k.m3u8?date=20120302220001&uid=0&rnd=2012030222000122771&deviceid=123&key=bd37c35d2dbc7e06704dcaac94834257&count=1330675667","image":""}
+													 ,{"title":"天津卫视","url":"http://tvm.3g.cntv.cn/approve/live?channel=TianJinTV&type=ipad&type=m3u8","image":""}
+													 ,{"title":"安徽卫视","url":"http://tvm.3g.cntv.cn/approve/live?channel=AnHuiTV&type=ipad$xx=m3u8","image":""}
+													 ,{"title":"山西卫视","url":"http://live.itv.doplive.com.cn/live328/index_128k.m3u8?date=20120302220001&uid=0&rnd=2012030222000148416&deviceid=123&key=91b923ea62a9059194e1a916a3007df2&count=1330675773","image":""}
+												     ,{"title":"重庆卫视","url":"http://221.204.221.130:8080/playlist/35.m3u8?key=fNL/llXZmCntd120+hw1rs2eeMv4rKbk","image":""}
+												     ,{"title":"陕西卫视","url":"http://tvm.3g.cntv.cn/approve/live?channel=Shan3XiTV&type=ipad&t=m3u8","image":""}
+											  		 ,{"title":"内蒙卫视","url":"http://tvm.3g.cntv.cn/approve/live?channel=NeiMengGuTV&type=ipad&t=m3u8","image":""}
+											   		 ,{"title":"湖北卫视","url":"http://live.itv.doplive.com.cn/live314/index_128k.m3u8?date=20120302220001&uid=0&rnd=2012030222000128594&deviceid=123&key=8a8b345940d3c6ea324a1586821b5614&count=1330675464","image":""}
+											   	     ,{"title":"吉林卫视","url":"http://play.api.pptv.com/m3u8-300176.m3u8?key=fNL/llXZmCntd120+hw1rs2eeMv4rKbk","image":""}
+											     	 ,{"title":"西藏卫视","url":"http://live.itv.doplive.com.cn/live336/index_128k.m3u8?date=20120302220001&uid=0&rnd=2012030222000196056&deviceid=123&key=f2aac36c12d229373a2d93c852fc2f61&count=1330675896","image":""}
+									  ]
+				
+				},{"videoNamePerson":"新闻",
+									"videos":[{"title":"福建新闻","url":"rtsp://61.241.199.18/live/fjxw.sdp","image":""}
+									,{"title":"CCTV-13新闻","url":"rtsp://113.108.220.53:1935/live/cctv13.sdp","image":""}
+											 
+									]
+				
+				},{"videoNamePerson":"体育",
+									"videos":[{"title":"福建体育","url":"rtsp://61.241.199.18/live/fjty.sdp","image":""}
+													 ,{"title":"广东体育","url":"rtsp://113.108.220.53:1935/live/gdty.sdp","image":""}
+													 ,{"title":"广东体育（高速通道）","url":"http://tvm.3g.cntv.cn/approve/live?channel=GDSport&type=ipad&xx=m3u8","image":""}
+													 ,{"title":"五星体育","url":"http://tvm.3g.cntv.cn/approve/live?channel=SHSport&type=ipad&xx=m3u8","image":""}
+													 ,{"title":"北京体育","url":"http://tvm.3g.cntv.cn/approve/live?channel=BTV6&type=ipad&xx=m3u8","image":""}
+													  
+									]
+				
+				},{"videoNamePerson":"凤凰卫视",
+						"videos":[
+								{"title":"凤凰资讯台(高速通道)","url":"http://210.51.19.156/live/iphone/zxt/index_256k.m3u8","image":"http://img2.nipic.com/2008-03-06/200836104855511_1.jpg","flags":"22"}
+								,{"title":"凤凰中文台(高速通道)","url":"http://210.51.19.156/live/iphone/zwt/index_256k.m3u8 ","image":"http://img2.nipic.com/2008-03-06/200836104855511_1.jpg","flags":"22"}
+										
+									]  
+			   },{"videoNamePerson":"娱乐",
+									"videos":[{"title":"[V]娱乐","url":"rtsp://202.102.79.114:554/live/tv90","image":""}
+													 ,{"title":"华谊影院","url":"rtsp://114.255.201.246/yangg_HYYY_AZ.sdp","image":""}
+													 ,{"title":"江苏综艺","url":"rtsp://122.192.35.80:554/live/tv03","image":""}
+													 ,{"title":"华数大片","url":"rtsp://121.31.254.143:554/10466","image":""}
+													 ,{"title":"华数娱乐","url":"rtsp://121.31.254.143:554/10496","image":""}
+													 ,{"title":"华数资讯","url":"rtsp://121.31.254.143:554/10486","image":""}
+												     ,{"title":"华数综艺","url":"rtsp://121.31.254.143:554/10476","image":""}	
+													 ,{"title":"淮安综合","url":"rtsp://202.102.79.114:554/live/tv82","image":""}
+													 
+									]
+				
+				}
+				,{"videoNamePerson":"江苏省的卫视",
+							"videos":[{"title":"江苏卫视","url":"rtsp://121.31.254.143:554/10446","image":""}
+							         ,{"title":"江苏公共","url":"rtsp://122.192.35.80:554/live/tv51","image":""}
+							         ,{"title":"江苏靓装","url":"rtsp://122.192.35.80:554/live/tv50","image":""}
+							         ,{"title":"江苏幸福TV","url":"rtsp://122.192.35.80:554/live/tv28","image":""}
+							         ,{"title":"江苏休闲","url":"rtsp://122.192.35.76:554/live/tv05","image":""}
+							         ,{"title":"江苏影视","url":"rtsp://122.192.35.76:554/live/tv04","image":""}
+							         ,{"title":"江苏综艺","url":"rtsp://122.192.35.80:554/live/tv03","image":""}
+							         ,{"title":"南京十八","url":"rtsp://202.102.79.114:554/live/tv12","image":""} 
+							         ,{"title":"南京综合","url":"rtsp://202.102.79.114:554/live/tv09","image":""}
+							         ,{"title":"南通综合","url":"rtsp://202.102.79.114:554/live/tv63","image":""}
+							         ,{"title":"扬州财经","url":"rtsp://221.229.34.134/h264qvgaamryzcj","image":""}
+							         ,{"title":"扬州城市","url":"rtsp://221.229.34.134/h264qvgaamryztv2","image":""}
+							         ,{"title":"扬州生活","url":"rtsp://221.229.34.134/h264qvgaamryztv3","image":""}
+							         ,{"title":"扬州时尚","url":"rtsp://221.229.34.134/h264qvgaamryzss","image":""}
+							         ,{"title":"扬州综合","url":"rtsp://221.229.34.134/h264qvgaamryztv1","image":""}
+							         ,{"title":"康晨影院","url":"rtsp://202.102.79.114:554/live/tv17","image":""}
+							         ,{"title":"连云港综合","url":"rtsp://202.102.79.114:554/live/tv80","image":""}
+							         ,{"title":"常州综合","url":"rtsp://202.102.79.114:554/live/tv61","image":""}
+									 ,{"title":"电子竞技","url":"rtsp://122.192.35.80:554/live/tv20","image":""}
+									 ,{"title":"好享购物","url":"rtsp://122.192.35.76:554/live/tv24","image":""}
+									 ,{"title":"苏州经济","url":"rtsp://streamnew.2500city.com/live/livetv22","image":""}
+									 ,{"title":"苏州文化","url":"rtsp://streamnew.2500city.com/live/livetv32","image":""}
+									 ,{"title":"苏州专题","url":"rtsp://streamnew.2500city.com/live/livetv42","image":""}
+									 ,{"title":"苏州资讯","url":"rtsp://streamnew.2500city.com/live/livetv52","image":""}
+									 ,{"title":"苏州综合","url":"rtsp://202.102.79.114:554/live/tv60","image":""}
+									 ,{"title":"苏州综合","url":"rtsp://122.192.35.80:554/live/tv60","image":""}
+									 ,{"title":"宿迁综合","url":"rtsp://122.192.35.76:554/live/tv81","image":""}
+									 ,{"title":"宿迁综合","url":"rtsp://202.102.79.114:554/live/tv81","image":""}
+									 ,{"title":"泰州综合","url":"rtsp://122.192.35.76:554/live/tv71","image":""}
+									 ,{"title":"泰州综合","url":"rtsp://202.102.79.114:554/live/tv71","image":""}
+									 ,{"title":"无锡综合","url":"rtsp://122.192.35.76:554/live/tv70","image":""}
+									 ,{"title":"无锡综合","url":"rtsp://202.102.79.114:554/live/tv70","image":""}
+									 ,{"title":"徐州综合","url":"rtsp://122.192.35.80:554/live/tv73","image":""}
+									 ,{"title":"徐州综合","url":"rtsp://202.102.79.114:554/live/tv73","image":""}
+									 ,{"title":"盐城综合","url":"rtsp://122.192.35.80:554/live/tv62","image":""}
+									 ,{"title":"盐城综合","url":"rtsp://202.102.79.114:554/live/tv62","image":""}      
+									 ,{"title":"扬州综合","url":"rtsp://122.192.35.76:554/live/tv83","image":""}
+									 ,{"title":"优漫卡通","url":"rtsp://122.192.35.76:554/live/tv06","image":""}
+							  
+							]
+				},{"videoNamePerson":"北京卫视",
+						"videos":[
+								{"title":"北京卫视(高速通道)","url":"http://tvm.3g.cntv.cn/approve/live?channel=BTV1&type=iphone&xx=m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+								,{"title":"北京文娱(高速通道)","url":"http://t.live.cntv.cn/20110928/btv2.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+								,{"title":"北京科教(高速通道)","url":"http://t.live.cntv.cn/20110928/btv3.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+								,{"title":"北京影视(高速通道)","url":"http://t.live.cntv.cn/20110928/btv4.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+								,{"title":"北京财经(高速通道)","url":"http://t.live.cntv.cn/20110928/btv5.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+								,{"title":"北京体育(高速通道)","url":"http://t.live.cntv.cn/20110928/btv6.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+								,{"title":"北京生活(高速通道)","url":"http://t.live.cntv.cn/20110928/btv7.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+								,{"title":"北京青年(高速通道)","url":"http://t.live.cntv.cn/20110928/btv8.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+								,{"title":"北京新闻(高速通道)","url":"http://t.live.cntv.cn/20110928/btv9.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}   
+						    	] 
+			},{"videoNamePerson":"东方卫视",
+						"videos":[
+						         {"title":"东方卫视（高速通道）","url":"http://t.live.cntv.cn/20110928/dongfangtv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/2011711113755483630.png","flags":"10"}
+							    ,{"title":"东方卫视","url":"rtsp://202.102.79.114:554/live/tv11","image":""} 
+								 ,{"title":"东方财经","url":"rtsp://202.102.79.114:554/live/tv23","image":""}	
+				 				 ,{"title":"东方购物","url":"rtsp://113.108.220.53/tv/dfgw-h.sdp","image":""}
+				 				
+						 				 
+									] 
+									
+			},{"videoNamePerson":"福建卫视",
+							"videos":[{"title":"福建电视剧","url":"rtsp://61.241.199.18/live/fjdsj.sdp","image":""} 
+											,{"title":"福建都市","url":"rtsp://61.241.199.18/live/fjdsss.sdp","image":""}
+											,{"title":"福建体育","url":"rtsp://61.241.199.18/live/fjty.sdp","image":""}
+											,{"title":"福建新闻","url":"rtsp://61.241.199.18/live/fjxw.sdp","image":""}
+							
+							]
+			
+			},{"videoNamePerson":"广东省的卫视",
+							"videos":[	
+											{"title":"潮州综合","url":"rtsp://58.248.254.8/zhibo/czzh.sdp","image":""}
+											,{"title":"电子竞技","url":"rtsp://202.102.79.114:554/live/tv20","image":""}
+											,{"title":"动作电影","url":"rtsp://121.14.129.221/broadcast/pushfeeder/rtpencoder/dongzdy-h.sdp","image":""}
+											,{"title":"好享购物","url":"rtsp:/202.102.79.114:554/live/tv24","image":""}
+											,{"title":"嘉佳卡通","url":"rtsp://113.108.220.53/tv/26-2-7.sdp","image":""}
+											,{"title":"南方tvs4","url":"rtsp://121.14.129.221/broadcast/pushfeeder/rtpencoder/tvs4-h.sdp","image":""}
+											,{"title":"汕头综合","url":"rtsp://58.248.254.8/zhibo/stws-h.sdp","image":""}
+											,{"title":"绍关综合","url":"rtsp://113.108.220.53/tv/sgws.sdp","image":""}
+											,{"title":"深圳卫视（高速通道）","url":"http://t.live.cntv.cn/20110928/shenzhentv.m3u8","image":"http://t3.baidu.com/it/u=1195522406,2695599669&fm=0&gp=0.jpg","flags":"10"}
+											,{"title":"深圳卫视","url":"rtsp://113.57.230.25:554/rtplive/tv06","image":""}
+											,{"title":"珠海生活","url":"rtsp://211.148.197.144:1935/rtplive/zhtv1.stream","image":""}
+											,{"title":"珠海综合","url":"rtsp://211.148.197.144:1935/rtplive/zhtv1.stream","image":""}
+											
+											
+										]
+			},{"videoNamePerson":"河北卫视",
+							"videos":[{"title":"河北卫视","url":"rtsp://221.192.130.239:554/live/tv01","image":""}
+											,{"title":"河北都市","url":"rtsp://221.192.130.239:554/live/tv03","image":""}
+											,{"title":"河北公共","url":"rtsp://221.192.130.239:554/live/tv06","image":""}
+											,{"title":"河北经济","url":"rtsp://221.192.130.239:554/live/tv02","image":""}
+											,{"title":"河北农民","url":"rtsp://221.192.130.239:554/live/tv07","image":""}
+											,{"title":"河北少儿","url":"rtsp://221.192.130.239:554/live/tv05","image":""}
+											,{"title":"河北影视","url":"rtsp://221.192.130.239:554/live/tv04","image":""}
+							]
+							
+			},{"videoNamePerson":"其他省份电视台",
+									"videos":[{"title":"安徽卫视","url":"rtsp://113.108.220.53/tv/26-6-7.sdp","image":""}
+									              ,{"title":"广西卫视","url":"http://cms.doplive.com.cn/live309/index_multi.m3u8?date=20120302220001&uid=0&rnd=2012030222000165096&deviceid=123&key=5c97d0cdc8528aaa51987208afdd4933&count=1330675351","image":"http://c1.wcdma186.net/res/wtv_cate_images/201106/201161491413896809.png","flags":"19"}
+													,{"title":"广西卫视","url":"rtsp://121.31.254.143:554/10406","image":""}
+													,{"title":"河南卫视","url":"rtsp://58.242.248.15:554/henws_qvga","image":""}
+													,{"title":"湖北卫视（高速通道）","url":"http://t.live.cntv.cn/20110928/hubeitv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201106/20116149139141290.png","flags":"24"}
+													,{"title":"湖北卫视","url":"rtsp://211.137.78.148/broadcast/hbtv2.rm","image":""}
+													,{"title":"吉林卫视","url":"rtsp://113.108.220.53/tv/26-3-1.sdp","image":""}
+													,{"title":"江西卫视（高速通道）","url":"http://t.live.cntv.cn/20110928/jiangxitv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201106/20116149145141171.png","flags":"20"}
+													,{"title":"江西卫视","url":"rtsp://122.192.36.77:554/9136","image":""}
+													,{"title":"辽宁卫视(高速通道)","url":"rtsp://live.android.maxlab.cn/maxtv-ln.sdp","image":"http://c1.wcdma186.net/res/wtv_cate_images/201106/201161311194634575.png","flags":"22"}
+													,{"title":"辽宁卫视","url":"rtsp://119.62.72.210:554/rtplive/tv12","image":""}
+													,{"title":"四川卫视（高速通道）","url":"http://t.live.cntv.cn/20110928/sichuantv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201103/2011328153118918644.png","flags":"6"}
+													,{"title":"四川卫视","url":"rtsp://58.248.254.8/zhibo/26-6-4.sdp","image":""}
+													,{"title":"天津卫视（高速通道）","url":"http://t.live.cntv.cn/20110928/tianjintv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201108/2011818172649282671.png","flags":"13"}
+													,{"title":"天津卫视","url":"rtsp://113.57.230.25:554/rtplive/tv04","image":""}
+													,{"title":"安徽卫视（高速通道）","url":"http://tvm.3g.cntv.cn/approve/live?channel=AnHuiTV&type=iphone$xx=m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201106/201161491350570394.png","flags":"21"}
+													,{"title":"安徽卫视","url":"rtsp://114.112.58.107:1935/live/anhuiweishi","image":""}
+													,{"title":"黑龙江卫视（高速通道）","url":"http://t.live.cntv.cn/20110928/heilongjiangtv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201106/201161491327168722.png","flags":"28"}
+													,{"title":"黑龙江卫视","url":"rtsp://114.112.58.107:1935/live/heilongjiangweishi","image":""}
+													,{"title":"天津卫视","url":"rtsp://114.112.58.107:1935/live/cnlivetianjinweishi","image":""}
+									
+									]
+				
+				},{"videoNamePerson":"山东省的卫视",
+									"videos":[{"title":"山东卫视","url":"http://t.live.cntv.cn/20110928/shandongtv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201103/2011328153054706884.png","flags":"7"}
+													,{"title":"山东卫视","url":"rtsp://112.231.23.20:554/rtplive/tv01","image":""}
+									                ,{"title":"山东读书","url":"rtsp://112.231.23.20:554/rtplive/tv31","image":""}
+													,{"title":"山东公共","url":"rtsp://112.231.23.20:554/rtplive/tv03","image":""}
+													,{"title":"山东农科","url":"rtsp://112.231.23.20:554/rtplive/tv05","image":""}
+													,{"title":"山东齐鲁","url":"rtsp://112.231.23.20:554/rtplive/tv02","image":""}
+													,{"title":"山东少儿","url":"rtsp://112.231.23.20:554/rtplive/tv06","image":""}
+													,{"title":"山东生活","url":"rtsp://112.231.23.20:554/rtplive/tv07","image":""}
+													,{"title":"山东体育","url":"rtsp://112.231.23.20:554/rtplive/tv04","image":""}
+													,{"title":"山东影视","url":"rtsp://112.231.23.20:554/rtplive/tv08","image":""}
+													,{"title":"山东综艺","url":"rtsp://112.231.23.20:554/rtplive/tv09","image":""}
+									                ,{"title":"济南新闻","url":"rtsp://113.57.230.25:554/rtplive/tv10","image":""}
+													,{"title":"乐享MV","url":"rtsp://112.231.23.20:554/rtplive/tv25","image":""}
+													,{"title":"乐享TV","url":"rtsp://112.231.23.20:554/rtplive/tv26","image":""}
+													,{"title":"乐享大片","url":"rtsp://112.231.23.20:554/rtplive/tv34","image":""}
+													,{"title":"青岛财经","url":"rtsp://119.167.73.17:554/rtplive/tv41","image":""}
+													,{"title":"青岛都市","url":"rtsp://119.167.73.17:554/rtplive/tv51","image":""}
+													,{"title":"青岛青少","url":"rtsp://119.167.73.17:554/rtplive/tv61","image":""}
+													,{"title":"青岛生活","url":"rtsp://119.167.73.17:554/rtplive/tv21","image":""}
+													,{"title":"青岛影视","url":"rtsp://119.167.73.17:554/rtplive/tv31","image":""}
+													,{"title":"青岛综合","url":"rtsp://119.167.73.17:554/rtplive/tv81","image":""}
+													,{"title":"泰山新闻","url":"rtsp://112.231.23.20:554/rtplive/tv32","image":""} 
+									
+									]
+				
+				},{"videoNamePerson":"山西",
+									"videos":[{"title":"山西卫视","url":"rtsp://r1.sxrtv.com/encoder/tv1.rm","image":""}
+									         ,{"title":"山西公共","url":"rtsp://r2.sxrtv.com/encoder/tv6.rm","image":""}
+											 ,{"title":"山西经济","url":"rtsp://r1.sxrtv.com/encoder/tv3.rm","image":""}
+											 ,{"title":"山西科教","url":"rtsp://r2.sxrtv.com/encoder/tv5.rm","image":""}
+											 ,{"title":"山西影视","url":"rtsp://r1.sxrtv.com/encoder/tv4.rm","image":""}
+									]
+				
+				},{"videoNamePerson":"云南省的卫视",
+									"videos":[
+									               {"title":"云南卫视","url":"http://t.live.cntv.cn/20110928/yunnantv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201106/201161491318966847.png","flags":"23"}
+								                   ,{"title":"云南卫视","url":"rtsp://119.62.72.210:554/live/tv07","image":""}
+							 		                 ,{"title":"云南都市","url":"rtsp://119.62.72.210:554/live/tv01","image":""}
+													 ,{"title":"云南生活","url":"rtsp://119.62.72.210:554/live/tv02","image":""}
+													 ,{"title":"云南影视","url":"rtsp://119.62.72.210:554/live/tv04","image":""}
+													 ,{"title":"云南娱乐","url":"rtsp://119.62.72.210:554/live/tv03","image":""}
+													 ,{"title":"昆明1台","url":"rtsp://119.62.72.210:554/live/tv17","image":""}
+													 ,{"title":"昆明2台","url":"rtsp://119.62.72.210:554/live/tv05","image":""}
+													 ,{"title":"昆明3台","url":"rtsp://119.62.72.210:554/live/tv18","image":""}
+													 ,{"title":"昆明4台","url":"rtsp://119.62.72.210:554/live/tv16","image":""}
+													 ,{"title":"昆明5台","url":"rtsp://119.62.72.210:554/live/tv15","image":""}
+													 ,{"title":"昆明6台","url":"rtsp://119.62.72.210:554/live/tv06","image":""}
+													 
+												 
+									]
+				
+				},{"videoNamePerson":"浙江省的卫视",
+									"videos":[ {"title":"浙江卫视","url":"rtsp://202.102.79.114:554/live/tv18","image":""}
+													 ,{"title":"浙江公共","url":"rtsp://l.m.cztv.com:554/zjtv7/live_ld","image":""}
+													 ,{"title":"浙江国际","url":"rtsp://l.m.cztv.com:554/zjtv10/live_ld","image":""}
+													 ,{"title":"浙江教科","url":"rtsp://l.m.cztv.com:554/zjtv4/live_ld","image":""}
+													 ,{"title":"浙江经视","url":"rtsp://l.m.cztv.com:554/zjtv3/live_ld","image":""}
+													 ,{"title":"浙江民生","url":"rtsp://l.m.cztv.com:554/zjtv6/live_ld","image":""} 
+													 ,{"title":"浙江钱江","url":"rtsp://l.m.cztv.com:554/zjtv2/live_ld","image":""}
+													 ,{"title":"浙江少儿","url":"rtsp://l.m.cztv.com:554/zjtv8/live_ld","image":""}
+													 ,{"title":"浙江网络","url":"rtsp://l.m.cztv.com:554/cztv1/live_ld","image":""}
+													 ,{"title":"浙江移动","url":"rtsp://121.31.254.143:554/10416","image":""}
+													 ,{"title":"浙江影视","url":"rtsp://l.m.cztv.com:554/zjtv5/live_ld","image":""}
+													 ,{"title":"镇江综合","url":"rtsp:/202.102.79.114:554/live/tv72","image":""}
+													 ,{"title":"舟山综合","url":"rtsp://l.m.cztv.com:554/zjzstv1/live_ld","image":""} 
+													 ,{"title":"杭州综合","url":"rtsp://l.m.cztv.com:554/zjhztv1/live_ld","image":""}
+													 ,{"title":"好易购","url":"rtsp://l.m.cztv.com:554/hygtv1/live_ld","image":""}
+													 ,{"title":"湖州综合","url":"rtsp://l.m.cztv.com:554/zjhutv1/live_ld","image":""}
+													 ,{"title":"嘉兴综合","url":"rtsp://l.m.cztv.com:554/zjjxtv1/live_ld","image":""}
+													 ,{"title":"金华综合","url":"rtsp://l.m.cztv.com:554/zjjhtv1/live_ld","image":""}
+													 ,{"title":"丽水综合","url":"rtsp://l.m.cztv.com:554/zjlstv1/live_ld","image":""}
+													 ,{"title":"旅游卫视","url":"rtsp://l.m.cztv.com:554/lytv1/live_ld","image":""}
+													 ,{"title":"宁波综合","url":"rtsp://l.m.cztv.com:554/zjnbtv1/live_ld","image":""}
+													 ,{"title":"衢州综合","url":"rtsp://l.m.cztv.com:554/zjqztv1/live_ld","image":""}      
+												 	 ,{"title":"绍兴综合","url":"rtsp://l.m.cztv.com:554/zjsxtv1/live_ld","image":""}
+													 ,{"title":"台州综合","url":"rtsp://l.m.cztv.com:554/zjtztv1/live_ld","image":""}
+													 ,{"title":"温州综合","url":"rtsp://l.m.cztv.com:554/zjwztv1/live_ld","image":""}
+													 ,{"title":"温州新闻综合","url":"mms://220.189.247.171/xwzh","image":""}
+													 ,{"title":"温州经济科教","url":"mms://220.189.247.171/jjkj","image":""}
+													 ,{"title":"温州都市生活","url":"mms://220.189.247.171/dssh","image":""}
+													 ,{"title":"温州公共民生","url":"mms://220.189.247.171/yswh","image":""}
+													
+													 
+									]
+				
+				},{"videoNamePerson":"重庆",
+									"videos":[ {"title":"重庆卫视","url":"http://123.147.160.11:1935/rtplive/cqtv.sdp/playlist.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201111/2011113164033580557.png","flags":"5"}
+													,{"title":"重庆卫视","url":"rtsp://122.192.35.76:554/live/tv19","image":""}
+													 ,{"title":"重庆少儿","url":"rtsp://123.147.168.27:554/sepd","image":""}
+													 ,{"title":"重庆生活.","url":"rtsp://123.147.168.27:554/shpd","image":""}
+													 ,{"title":"重庆时尚","url":"rtsp://123.147.168.27:554/shis","image":""}
+													 ,{"title":"重庆新财经","url":"rtsp://123.147.168.27:554/xcj","image":""}
+													 ,{"title":"重庆移动","url":"rtsp://123.147.168.27:554/scds","image":""}
+													 ,{"title":"重庆影视","url":"rtsp://123.147.168.27:554/yspd","image":""} 
+													 ,{"title":"金川电视","url":"rtsp://112.194.248.2:1935/jctv/jctv.sdp","image":""}
+									]
+				
+				},{"videoNamePerson":"西安市卫视",
+									"videos":[{"title":"西安都市","url":"rtsp://113.140.13.200:1935/liveedge2/livename_2","image":""}
+													 ,{"title":"西安购物","url":"rtsp://113.140.13.200:1935/liveedge6/livename_2","image":""}
+													 ,{"title":"西安健康","url":"rtsp://113.140.13.200:1935/liveedge5/livename_2","image":""}
+													 ,{"title":"西安影视","url":"rtsp://113.140.13.200:1935/liveedge4/livename_2","image":""}
+													 ,{"title":"西安资讯","url":"rtsp://113.140.13.200:1935/liveedge3/livename_2","image":""}
+													 ,{"title":"西安综合","url":"rtsp://113.140.13.200:1935/liveedge1/livename_2","image":""}
+													 
+									]
+				
+				},{"videoNamePerson":"视讯中国13套",
+									"videos":[{"title":"爱综艺","url":"rtsp://live.cnlive.com:1935/live/izongyi","image":""}
+													 ,{"title":"搏击天下","url":"rtsp://live.cnlive.com:1935/live/bojitianxia","image":""}
+													 ,{"title":"潮体育","url":"rtsp://live.cnlive.com:1935/liveorigin/chaotiyu","image":""}
+													 ,{"title":"车视界","url":"rtsp://114.112.58.100:1935/live/cheshijie","image":""}
+													 ,{"title":"大舞台","url":"rtsp://live.cnlive.com:1935/liveorigin/dawutai","image":""}
+													 ,{"title":"纪录片","url":"rtsp://live.cnlive.com:1935/live/leihejilu","image":""}
+													 ,{"title":"快新闻","url":"rtsp://live.cnlive.com:1935/liveorigin/news ","image":""}
+													 ,{"title":"热动漫","url":"rtsp://live.cnlive.com:1935/live/dongman","image":""}
+													 ,{"title":"音乐台","url":"rtsp://live.cnlive.com:1935/liveorigin/inyuetai","image":""}
+													 ,{"title":"娱乐台","url":"rtsp://live.cnlive.com:1935/live/eyule","image":""}
+													 
+												 
+									]
+				
+				},{"videoNamePerson":"卡通",
+									"videos":[{"title":"北京卡酷","url":"rtsp://124.160.192.180/live/kaku.sdp","image":""}
+													 ,{"title":"优漫卡通","url":"rtsp://122.192.35.76:554/live/tv06","image":""}
+													 ,{"title":"嘉佳卡通","url":"rtsp://58.248.254.8/zhibo/26-2-7.sdp","image":""}
+									
+									] 
+				},{"videoNamePerson":"教育和家庭频道",
+									"videos":[{"title":"好家庭运动健康","url":"rtsp://58.62.207.114/t300k1.sdp","image":""}
+									 					,{"title":"河北少儿","url":"rtsp://221.192.130.239:554/live/tv05","image":""}
+									 					,{"title":"留学世界","url":"rtsp://l.m.cztv.com:554/zjtv9/live_ld","image":""}
+									 					,{"title":"旅游卫视","url":"rtsp://58.248.254.8/zhibo/29-3-42.sdp","image":""}
+									 					,{"title":"书画频道","url":"rtsp://114.255.201.248/live167_video5_128k.sdp","image":""}
+									 					,{"title":"校园频道","url":"rtsp://58.62.207.114/t2.sdp","image":""}
+									 					,{"title":"中国教育","url":"rtsp://122.192.35.76:554/live/tv21","image":""}
+									
+									] 
+				
+				},{"videoNamePerson":"mundu节目9套",
+						"videos":[{"title":"aaj tak","url":"rtsp://ss1c6.idc.mundu.tv:554/prf2/cid_4.sdp","image":""}
+								,{"title":"CNBC awaaz","url":"rtsp://ss1c6.idc.mundu.tv:554/prf2/cid_34.sdp","image":""}
+								,{"title":"CNBC tv18","url":"rtsp://ss1c6.idc.mundu.tv:554/prf2/cid_35.sdp","image":""}
+								,{"title":"CNN国际","url":"rtsp://ss4c6.idc.mundu.tv:554/prf2/cid_93.sdp","image":""}
+								,{"title":"NDTV 24×7","url":"rtsp://ss1c6.idc.mundu.tv:554/prf2/cid_29.sdp","image":""}
+								,{"title":"NDTV goodtimes","url":"rtsp://ss1c6.idc.mundu.tv:554/prf2/cid_32.sdp","image":""}
+								,{"title":"NDTV india","url":"rtsp://ss1c6.idc.mundu.tv:554/prf2/cid_33.sdp","image":""}
+								,{"title":"NDTV profit","url":"rtsp://ss1c6.idc.mundu.tv:554/prf2/cid_31.sdp","image":""}
+								,{"title":"times now","url":"rtsp://ss1c6.idc.mundu.tv:554/prf2/cid_2.sdp","image":""}
+							]
+			
+			},{"videoNamePerson":"其他国外节目",
+									"videos":[{"title":"B4U","url":"rtsp://115.112.248.159:554/prf2/cid_75.sdp","image":""}
+													,{"title":"COLORS","url":"rtsp://46.137.251.30/col50.sdp","image":""}
+													,{"title":"ind music","url":"rtsp://115.112.248.159:554/prf2/cid_83.sdp","image":""}
+													,{"title":"JOJ","url":"rtsp://stream.the.sk/live/joj/joj-3m.sdp","image":""}
+													,{"title":"music box","url":"rtsp://stream.the.sk/live/musicbox/musicbox-3m.3gp","image":""} 
+				
+									]
+				},{"videoNamePerson":"欧洲节目",
+								"videos":[{"title":"01 Guitarist","url":"rtsp://217.146.95.166:554/live/ch1yqvga.3gp","image":""}
+												 ,{"title":"05 redlight1","url":"rtsp://217.146.95.166:554/live/ch5yqvga.3gp","image":""}
+												 ,{"title":"10 outdoor sport","url":"rtsp://217.146.95.166:554/live/ch10yqvga.3gp","image":""}
+												 ,{"title":"12 B4U","url":"rtsp://217.146.95.166:554/playlist/ch12zqvga.3gp","image":""}
+												 ,{"title":"13 HITV","url":"rtsp://217.146.95.166:554/live/ch13yqvga.3gp","image":""}
+												 ,{"title":"15 india music","url":"rtsp://217.146.95.166:554/live/ch15yqvga.3gp","image":""}
+												 ,{"title":"16 UCB","url":"rtsp://217.146.95.166:554/live/ch16yqvga.3gp","image":""}
+												 ,{"title":"20 air sports","url":"rtsp://217.146.95.166:554/live/ch20yqvga.3gp","image":""}
+												 ,{"title":"21 clubbing tv","url":"rtsp://217.146.95.166:554/live/ch21yqvga.3gp","image":""}
+												 ,{"title":"22 bade spotting","url":"rtsp://217.146.95.166:554/live/ch22yqvga.3gp","image":""}
+												 ,{"title":"23 redlight2","url":"rtsp://217.146.95.166:554/live/ch23yqvga.3gp","image":""}
+												 ,{"title":"24 redlight3","url":"rtsp://217.146.95.166:554/live/ch24yqvga.3gp","image":""}
+												 ,{"title":"25 ibiza","url":"rtsp://217.146.95.166:554/live/ch25yqvga.3gp","image":""}
+												 ,{"title":"","url":"rtsp://217.146.95.166:554/live/ch26yqvga.3gp","image":""}
+												 ,{"title":"27 fashion TV","url":"rtsp://217.146.95.166:554/live/ch27yqvga.3gp","image":""}
+												 ,{"title":"28 Zing","url":"rtsp://stream.the.sk/live/joj/joj-3m.sdp","image":""}
+												 ,{"title":"29 bella club linear","url":"","image":""}
+												 ,{"title":"","url":"rtsp://217.146.95.166:554/live/ch29yqvga.3gp","image":""}
+												 ,{"title":"32 bollywood action movies","url":"rtsp://217.146.95.166:554/live/ch32yqvga.3gp","image":""}
+												 ,{"title":"33 bollywood movies","url":"rtsp://217.146.95.166:554/live/ch33yqvga.3gp","image":""}
+												 ,{"title":"35 russian today","url":"rtsp://217.146.95.166:554/live/ch35yqvga.3gp","image":""}
+												 ,{"title":"36 you diva1","url":"rtsp://217.146.95.166:554/live/ch36yqvga.3gp","image":""}
+												 ,{"title":"37 you diva2","url":"rtsp://217.146.95.166:554/live/ch37yqvga.3gp","image":""}
+												 ,{"title":"38 RT ARABIC World News","url":"rtsp://217.146.95.166:554/live/ch38yqvga.3gp","image":""}
+												 ,{"title":"41 bella club lite","url":"rtsp://217.146.95.166:554/live/ch41yqvga.3gp","image":""}
+												 ,{"title":"42 UNTVgreen peace","url":"rtsp://217.146.95.166:554/live/ch42yqvga.3gp","image":""}
+												 ,{"title":"43 WWF","url":"rtsp://217.146.95.166:554/live/ch43yqvga.3gp","image":""}
+												 ,{"title":"44 UNEP","url":"rtsp://217.146.95.166:554/live/ch44yqvga.3gp","image":""}
+												 ,{"title":"45 channel S","url":"rtsp://217.146.95.166:554/live/ch45yqvga.3gp","image":""}
+												 ,{"title":"46 record","url":"rtsp://217.146.95.166:554/live/ch46yqvga.3gp","image":""}
+												 ,{"title":"47 AUX send","url":"rtsp://217.146.95.166:554/live/ch47yqvga.3gp","image":""}
+												 ,{"title":"48 venus","url":"rtsp://217.146.95.166:554/live/ch48yqvga.3gp","image":""}
+												 ,{"title":"49 bollywood hungama","url":"rtsp://217.146.95.166:554/live/ch49yqvga.3gp","image":""}
+												 ,{"title":"50 Miami","url":"rtsp://217.146.95.166:554/live/ch50yqvga.3gp","image":""}
+												 ,{"title":"51 Miami music","url":"rtsp://217.146.95.166:554/live/ch51yqvga.3gp","image":""}
+												 ,{"title":"52 Miami DJ","url":"rtsp://217.146.95.166:554/live/ch52yqvga.3gp","image":""}  
+												 ,{"title":"53 Miami latin music","url":"rtsp://217.146.95.166:554/live/ch11yqvga.3gp","image":""}  
+												 ,{"title":"56 talkTV","url":"rtsp://217.146.95.166:554/live/ch56yqvga.3gp","image":""}     
+												 ,{"title":"57 9xm comedy","url":"rtsp://217.146.95.166:554/live/ch57yqvga.3gp","image":""}  
+												 ,{"title":"58 fashion one","url":"rtsp://217.146.95.166:554/live/ch58yqvga.3gp","image":""}  
+												 ,{"title":"59 power girls","url":"rtsp://217.146.95.166:554/live/ch59yqvga.3gp","image":""} 
+												 ,{"title":"60 RT documentary","url":"","image":""}  
+												 ,{"title":"","url":"rtsp://217.146.95.166:554/live/ch60yqvga.3gp","image":""}  
+												 ,{"title":"61 green tv comedy","url":"","image":""}  
+												 ,{"title":"","url":"rtsp://217.146.95.166:554/live/ch61yqvga.3gp","image":""}  
+												 ,{"title":"62 Automotive","url":"rtsp://217.146.95.166:554/live/ch62yqvga.3gp","image":""}  
+												 ,{"title":"63 hot shots","url":"rtsp://217.146.95.166:554/live/ch61yqvga.3gp","image":""}  
+												 ,{"title":"64 Strictly Belly Dancing","url":"rtsp://217.146.95.166:554/live/ch64yqvga.3gp","image":""}  
+												 ,{"title":"65 Bolly2box","url":"rtsp://217.146.95.166:554/live/ch65yqvga.3gp","image":""}
+												 ,{"title":"66 Bollywood Bikini","url":"rtsp://217.146.95.166:554/live/ch66yqvga.3gp","image":""}  
+												 ,{"title":"67 Noisevox","url":"rtsp://217.146.95.166:554/live/ch67yqvga.3gp","image":""}    
+												 ,{"title":"68 Street Groove","url":"rtsp://217.146.95.166:554/live/ch68yqvga.3gp","image":""}  
+												 ,{"title":"69 4 music","url":"rtsp://217.146.95.166:554/live/ch69yqvga.3gp","image":""} 
+												 ,{"title":"70 VIVA music","url":"rtsp://217.146.95.166:554/live/ch70yqvga.3gp","image":""}  
+												 ,{"title":"71 Models TV","url":"rtsp://217.146.95.166:554/live/ch71yqvga.3gp","image":""} 
+								
+								] 
+				
+				}
+			]
+	}

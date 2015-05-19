@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="设置" android:key="activity_settings">
+
+	<PreferenceCategory android:key="update_settings"
+		android:title="默认设置">
+		<CheckBoxPreference android:key="background_set"
+			android:title="默认使用软解码设置" android:defaultValue="true"
+			android:persistent="true" android:summary="默认使用软解码设置"/> 
+	</PreferenceCategory> 
+	<PreferenceCategory android:key="musicplayer_settings"
+		android:title="设置解码方式">
+		<Preference android:key="harddecoding" android:title="硬解码设置"
+			android:persistent="true" android:summary="硬解码" />
+		<Preference android:key="softdecoding" android:title="软解码设置"
+			android:persistent="true" android:summary="软解码" />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:key="helpactivity"
+		android:title="帮助">
+		<Preference android:key="help" android:title="帮助设置"
+			android:persistent="true" android:textSize="28dip" />
+	</PreferenceCategory>
+	
+	<!-- 
+		 	<CheckBoxPreference android:key="background_set"
+			android:title="默认使用软解码设置" android:defaultValue="true"
+			android:persistent="true" android:summary="默认使用软解码设置"> 
+		</CheckBoxPreference>
+	<Preference android:key="background_change" android:title="默认背景"
+			android:persistent="true" android:summary="默认背景" />
+	 -->
+</PreferenceScreen>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- 关于 -->
+	<item android:id="@+id/menu_about" android:icon="@drawable/menu_about"
+		android:title="@string/str_about" android:orderInCategory="3" />
+	<!-- 反馈 -->
+	<item android:id="@+id/menu_feedback" android:icon="@drawable/menu_feedback"
+		android:title="@string/str_feedback" android:orderInCategory="3" />
+
+	<!-- 个人设置 -->
+	<item android:id="@+id/menu_setting" android:icon="@drawable/menu_settings"
+		android:title="@string/btn_personal_setting" android:orderInCategory="3" />
+
+</menu>

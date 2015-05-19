@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background_id"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginBottom="50.0dip"
+		>
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			
+			>
+	
+	<TextView android:id="@+id/feekback_information" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true" 
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				android:textSize="14sp"
+				android:text="@string/feedback_describe"
+				android:textColor="@color/white"
+				/>
+	
+	<!-- <TextView android:id="@+id/device_information" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true" 
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				android:layout_below="@id/feekback_information"
+				android:textSize="14sp"
+				android:textColor="@color/white"
+				/> -->
+	
+	
+	
+	
+	<LinearLayout
+	android:orientation="horizontal" 
+	android:gravity="center"
+	android:layout_width="wrap_content"
+	android:layout_centerHorizontal="true"
+	android:layout_below="@id/feekback_information"
+	android:layout_height="wrap_content">
+	<Button android:id="@+id/waps_feedback"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textSize="24sp"
+		android:layout_centerInParent="true"
+		android:text="反馈"></Button>
+
+	<!-- <Button android:id="@+id/umeng_feedback_golist"
+		android:layout_width="wrap_content" 
+		android:layout_height="50dp"
+		android:layout_marginLeft="10dip"
+		android:layout_below="@id/waps_feedback"
+		android:text="详细反馈"></Button> -->
+	</LinearLayout>
+	
+		
+</RelativeLayout>
+	</ScrollView>
+
+</RelativeLayout>

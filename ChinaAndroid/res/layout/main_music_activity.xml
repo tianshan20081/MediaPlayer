@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+  
+	<TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+			<FrameLayout android:id="@android:id/tabcontent"
+				android:layout_width="fill_parent" android:layout_height="0.0dip"
+				android:layout_weight="1.0" />
+			<TabWidget android:id="@android:id/tabs"
+				android:visibility="gone" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_weight="0.0" />
+			<RadioGroup android:gravity="center_vertical"
+				android:layout_gravity="bottom" 
+				android:orientation="horizontal"
+				android:id="@id/main_radio"  
+				android:background="@drawable/tw_bg"
+				android:layout_width="fill_parent" 
+				android:layout_height="45dip">
+				<RadioButton android:id="@+id/radio_button0"
+					android:tag="radio_button0" android:text="全部歌曲"
+					style="@style/main_tab_bottom" android:drawableTop="@drawable/bottom_tab_songs" />
+				<RadioButton android:id="@+id/radio_button1"
+					android:tag="radio_button1" android:text="在线音乐"
+					style="@style/main_tab_bottom" android:drawableTop="@drawable/bottom_tab_study_englis" />
+				<RadioButton android:id="@+id/radio_button2"
+					android:tag="radio_button2" android:text="专辑"
+					style="@style/main_tab_bottom" android:drawableTop="@drawable/bottom_tab_albums" />
+				<RadioButton android:id="@+id/radio_button3"
+					android:tag="radio_button3" android:text="我的最爱"
+					style="@style/main_tab_bottom" android:drawableTop="@drawable/bottom_tab_myfavourite" />
+
+
+			</RadioGroup>
+		</LinearLayout>
+	</TabHost> 
+	<include layout="@layout/toolbar_btn_layout"
+	   
+		android:layout_alignParentBottom="true" />
+</RelativeLayout>

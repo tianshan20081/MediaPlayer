@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:id="@+id/background_id"
+	android:background="@drawable/bg">
+	
+	<ScrollView android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:layout_centerHorizontal="true"
+		android:scrollbars="none"
+	    android:id="@+id/scrollview"
+		android:layout_marginBottom="20.0dip"
+		>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:gravity="center" android:layout_centerInParent="true">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_gravity="center_horizontal" android:gravity="center"
+			android:layout_marginTop="15dip">
+			<RelativeLayout android:layout_width="100dip"
+				android:id="@+id/net_tv_rl" 
+				android:layout_height="95dip" 
+				android:focusable="false"
+				android:layout_gravity="center_horizontal" android:gravity="center">
+
+				<Button android:id="@+id/net_tv_btn"   android:layout_centerHorizontal="true"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:background="@drawable/channel_main_tv" />
+				<TextView android:layout_below="@id/net_tv_btn"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="15dip" android:text="直播"
+				    android:textColor="@color/white" 
+				 android:layout_centerHorizontal="true"
+				    ></TextView>
+			</RelativeLayout>
+
+			<RelativeLayout 
+				android:id="@+id/net_video_rl"
+				android:layout_width="100dip"
+					android:focusable="false"
+				android:layout_height="95dip"  
+				android:layout_gravity="center_horizontal"
+				android:layout_marginLeft="20dip" android:gravity="center">
+
+				<Button android:id="@+id/net_video_btn"  android:layout_centerHorizontal="true"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/wangluo2" />
+				<TextView android:layout_below="@id/net_video_btn"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="15dip" android:text="网络"
+					 android:layout_centerHorizontal="true"
+				    android:textColor="@color/white"></TextView>
+			</RelativeLayout>
+		</LinearLayout>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_gravity="center_horizontal" android:gravity="center"
+			android:layout_marginTop="15dip">
+			<RelativeLayout android:id="@+id/local_video_rl"
+				android:focusable="false"
+			 android:layout_width="100dip"
+				android:layout_height="95dip"  
+				android:layout_gravity="center_horizontal" android:gravity="center">
+
+				<Button android:id="@+id/local_video_btn"  android:layout_centerHorizontal="true"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/channel_main_film" />
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dip"
+					android:text="视频"  android:layout_centerHorizontal="true"
+					android:textColor="@color/white" android:layout_below="@id/local_video_btn"></TextView>
+			</RelativeLayout>
+
+			<RelativeLayout android:id="@+id/local_music_rl" 	android:focusable="false" android:layout_width="100dip"
+				android:layout_height="95dip"   
+				android:layout_gravity="center_horizontal"
+				android:layout_marginLeft="20dip" android:gravity="center">
+
+				<Button android:id="@+id/local_music_btn"  android:layout_centerHorizontal="true"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/music" />
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dip"
+					android:text="音乐"  android:layout_centerHorizontal="true"
+					android:textColor="@color/white" android:layout_below="@id/local_music_btn"></TextView>
+			</RelativeLayout>
+		</LinearLayout>
+		
+		
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_gravity="center_horizontal" android:gravity="center"
+			android:layout_marginTop="15dip">
+			<RelativeLayout android:id="@+id/study_english_rl"  	android:focusable="false" android:layout_width="100dip"
+				android:layout_height="95dip"  
+				android:layout_gravity="center_horizontal" android:gravity="center">
+
+				<Button android:id="@+id/study_english_btn"  android:layout_centerHorizontal="true"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/english" />
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dip"
+					android:text="大全"  android:layout_centerHorizontal="true"
+					android:textColor="@color/white" android:layout_below="@id/study_english_btn"></TextView>
+			</RelativeLayout>
+
+			<RelativeLayout android:id="@+id/about_me_rl"  	android:focusable="false" android:layout_width="100dip"
+				android:layout_height="95dip"  
+				android:layout_gravity="center_horizontal"
+				android:layout_marginLeft="20dip" android:gravity="center">
+
+				<Button android:id="@+id/about_me_btn"  android:layout_centerHorizontal="true"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/shouyingji_bg" />
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dip"
+					android:text="广播"  android:layout_centerHorizontal="true"
+					android:textColor="@color/white" android:layout_below="@id/about_me_btn"></TextView>
+			</RelativeLayout>
+		</LinearLayout>
+		
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_gravity="center_horizontal" android:gravity="center"
+			android:layout_marginTop="15dip">
+			<RelativeLayout android:id="@+id/about_more_rl"  	android:focusable="false" android:layout_width="100dip"
+				android:layout_height="95dip"  
+				android:layout_gravity="center_horizontal" android:gravity="center">
+
+				<Button android:id="@+id/about_more_btn"  android:layout_centerHorizontal="true"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/more_bg" />
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dip"
+					android:text="更多 "   android:layout_centerHorizontal="true"
+					android:textColor="@color/white" android:layout_below="@id/about_more_btn"></TextView>
+			</RelativeLayout>
+
+			<RelativeLayout android:id="@+id/app_push_rl"  	android:focusable="false" android:layout_width="100dip"
+				android:layout_height="95dip"  
+				android:layout_gravity="center_horizontal"
+				android:layout_marginLeft="20dip" android:gravity="center">
+
+				<Button android:id="@+id/app_push_btn"  android:layout_centerHorizontal="true"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/channel_main_collect" />
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dip"
+					android:text="推荐"   android:layout_centerHorizontal="true"
+					android:textColor="@color/white" android:layout_below="@id/app_push_btn"
+					android:gravity="center_horizontal"></TextView>
+			</RelativeLayout>
+		</LinearLayout>
+	</LinearLayout>
+	</ScrollView> 
+</RelativeLayout> 
+	

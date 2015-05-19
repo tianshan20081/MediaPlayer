@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:id="@+id/background_id"
+	android:background="@drawable/bg"> 
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:orientation="vertical"
+		android:gravity="center"
+		
+		android:layout_marginLeft="15.0dip"
+		android:layout_marginRight="15.0dip" 
+		>
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:orientation="vertical"
+			android:layout_gravity="center_horizontal|center_vertical" 
+			android:gravity="center" 
+			android:layout_marginTop="15dip"
+			> 
+			<RelativeLayout 
+				android:id="@+id/set_button_syte"
+				android:layout_width="fill_parent"
+				android:layout_height="45dip" 
+				android:layout_gravity="center_vertical" 
+				android:gravity="left" 
+				android:background="@drawable/listview_top"
+				> 
+				<Button  
+				android:id="@+id/net_tv_btn"
+				    android:gravity="left|center_vertical" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:background="@drawable/menu_set_chart"
+					
+					android:layout_centerVertical="true"/>
+				<TextView android:layout_toRightOf="@id/net_tv_btn"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+				  	android:layout_centerVertical="true"
+				    android:layout_marginLeft="15.0dip"
+					android:textSize="15dip" 
+					android:text="自定义软件风格"
+					android:textColor="@color/black"></TextView>
+			</RelativeLayout>
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="0.5dip" 
+				android:src="@color/black"
+			></ImageView>
+
+			<RelativeLayout 
+				android:background="@drawable/listview_bottom"
+				android:id="@+id/net_video_rl"
+				android:layout_width="fill_parent"
+				android:layout_height="45dip" 
+				android:layout_gravity="center_horizontal"
+				android:gravity="left"
+			  >
+
+				<Button  
+					android:id="@+id/net_video_btn"
+				    android:gravity="left"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+				    android:background="@drawable/action_bg_color" />
+				<TextView android:layout_toRightOf="@id/net_video_btn"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_marginLeft="15.0dip"
+					android:textSize="15dip" android:text="设置软件风格"
+					android:textColor="@color/black"></TextView>
+			</RelativeLayout>
+		</LinearLayout> 
+
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:orientation="vertical"
+			android:layout_gravity="center_horizontal|center_vertical" 
+			android:gravity="center" 
+			android:layout_marginTop="15dip">
+			<RelativeLayout android:id="@+id/local_video_rl" 
+			   android:layout_width="fill_parent"
+				android:layout_height="45dip" 
+				android:layout_gravity="center_vertical" 
+				android:gravity="left" 
+				android:background="@drawable/listview_top"
+				>
+
+				<Button
+						android:id="@+id/local_video_btn"
+					android:gravity="left" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:background="@drawable/set_local_film_tag" />
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:textSize="15dip"
+					android:text="视频播放器设置" 
+	               	android:layout_centerVertical="true"
+	                 android:layout_marginLeft="15.0dip" 
+					android:textColor="@color/black" 
+					android:layout_toRightOf="@id/local_video_btn"></TextView>
+			</RelativeLayout>
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="0.5dip" 
+				android:src="@color/black"
+			></ImageView>
+			<RelativeLayout android:id="@+id/local_music_rl" 
+				android:layout_width="fill_parent"
+				android:layout_height="45dip" 
+				android:layout_gravity="center_vertical" 
+				android:gravity="left" 
+				android:background="@drawable/listview_bottom"
+				>
+
+				<Button 
+					android:id="@+id/local_music_btn"
+					android:gravity="left"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:background="@drawable/menu_library" />
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:textSize="15dip"
+					android:text="音乐播放器设置" 
+					android:layout_centerVertical="true"
+					android:layout_marginLeft="15.0dip"
+					android:textColor="@color/black" 
+					android:layout_toRightOf="@id/local_music_btn"></TextView>
+			</RelativeLayout>
+		</LinearLayout>
+		
+		
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:orientation="vertical"
+			android:layout_gravity="center_horizontal" 
+			android:gravity="center" 
+			android:layout_marginTop="15dip">
+			<RelativeLayout android:id="@+id/study_english_rl" 
+				android:layout_width="fill_parent"
+				android:layout_height="45dip" 
+				android:layout_gravity="center_vertical" 
+				android:gravity="left" 
+				android:background="@drawable/listview_top"
+				>
+				<Button   
+					android:id="@+id/study_english_btn"
+					android:gravity="left"
+					android:layout_centerVertical="true"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:background="@drawable/bottom_tab_artists" />
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dip"
+					android:text="在线音乐"  
+					android:layout_centerVertical="true"
+					android:layout_marginLeft="15.0dip"
+					android:textColor="@color/black" android:layout_toRightOf="@id/study_english_btn"></TextView>
+			</RelativeLayout>
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="0.5dip" 
+				android:src="@color/black"
+			></ImageView>
+			<RelativeLayout android:id="@+id/about_me_rl"
+			    android:layout_width="fill_parent"
+				android:layout_height="45dip" 
+				android:layout_gravity="center_vertical" 
+				android:gravity="left" 
+				android:background="@drawable/listview_certen"
+				>
+
+				<Button 
+					android:id="@+id/about_me_btn"
+				    android:gravity="left"
+				    android:layout_centerVertical="true"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:background="@drawable/action_help" />
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dip"
+					android:text="使用说明" 
+					android:layout_centerVertical="true"
+					android:layout_marginLeft="15.0dip"
+					android:textColor="@color/black" android:layout_toRightOf="@id/about_me_btn"></TextView>
+			</RelativeLayout>
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="0.5dip" 
+				android:src="@color/black"
+			></ImageView>
+				<RelativeLayout android:id="@+id/update_version"
+			    android:layout_width="fill_parent"
+				android:layout_height="45dip" 
+				android:layout_gravity="center_vertical" 
+				android:gravity="left" 
+				android:background="@drawable/listview_certen"
+				>
+
+				<Button  
+					android:id="@+id/about_meupdate_version_btn"
+				    android:gravity="left"
+				    android:layout_centerVertical="true"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:background="@drawable/more_update_normal" />
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dip"
+					android:text="版本更新" 
+					android:layout_centerVertical="true"
+					android:layout_marginLeft="15.0dip"
+					android:textColor="@color/black" android:layout_toRightOf="@id/about_meupdate_version_btn"></TextView>
+			</RelativeLayout>
+			
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="0.5dip" 
+				android:src="@color/black"
+			></ImageView>
+			<RelativeLayout android:id="@+id/about_me" 
+				android:layout_width="fill_parent"
+				android:layout_height="45dip" 
+				android:layout_gravity="center_vertical" 
+				android:gravity="left" 
+				android:background="@drawable/listview_bottom"
+				>
+
+				<Button  
+				android:id="@+id/about_me_btn"
+				   android:gravity="left"
+				   	android:layout_centerVertical="true"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:background="@drawable/chianandroid_about" />
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:textSize="15dip"
+					android:text="关于我们"   
+					android:layout_centerVertical="true"
+					android:layout_marginLeft="15.0dip"
+					android:textColor="@color/black" 
+					android:layout_toRightOf="@id/about_me_btn"></TextView>
+			</RelativeLayout> 
+		</LinearLayout> 
+	</LinearLayout> 
+</RelativeLayout> 

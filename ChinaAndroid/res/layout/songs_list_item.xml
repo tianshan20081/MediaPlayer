@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical">	
+	<include android:id="@+id/header" layout="@layout/list_section" android:visibility="gone" />
+	<RelativeLayout android:layout_width="fill_parent"
+	    android:layout_height="100dip"
+	   android:background="@drawable/listview_item_style"
+	    android:gravity="center_vertical">
+	    <!--     android:background="@drawable/listview_item_style" android:ignoreGravity="@+id/icon" icon is used for albumart, the grabber in edit playlist mode, and the playlist icon in the list of playlists -->
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/headpart" android:layout_centerVertical="true"
+			android:gravity="center_vertical"
+			android:layout_marginRight="15dip" 
+			android:layout_marginLeft="10dip"
+			android:layout_alignParentLeft="true"
+			android:orientation="horizontal">
+			<CheckBox android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:layout_marginRight="5dip"
+				android:visibility="gone"
+				android:id="@+id/selectview" 
+		        android:focusable="false"
+		        android:clickable="false"
+				android:layout_centerVertical="true" />
+			<ImageView android:id="@+id/albumart"
+				android:layout_centerVertical="true"
+		        android:background="@drawable/default_albumart"
+		        android:scaleType="fitXY"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+		</LinearLayout>
+	    
+	    <CheckBox android:id="@+id/addicon" android:button="@drawable/song_add_checkbox"
+			android:layout_alignParentRight="true" 
+			android:layout_marginRight="12dip"
+			android:layout_marginLeft="5dip"
+			android:layout_centerVertical="true" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:focusable="false" />
+		<ImageView android:id="@+id/play_indicator"
+	    	android:layout_toLeftOf="@id/addicon" 
+	    	android:background="@drawable/play_indicator"
+	    	android:layout_centerVertical="true"    
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dip" />
+	    <RelativeLayout android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true" 
+		    android:layout_toRightOf="@id/headpart"
+	        android:layout_toLeftOf="@id/play_indicator"
+		    android:gravity="center_vertical">
+		    <!-- The height is set to half the height of the parent, which is 64 dip -->
+		    <TextView android:id="@+id/songname"
+		        android:textColor="#FFFFFF"
+		        android:textSize="18sp"
+		        android:gravity="right"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:ellipsize="end"
+		        android:singleLine="true" />
+		
+		    <!-- The height is set to half the height of the parent, which is 64 dip -->
+		    <TextView android:id="@+id/artistname" android:visibility="visible"
+		        android:textColor="#999999"
+		        android:textSize="14sp"
+		        android:singleLine="true"
+		        android:ellipsize="end"
+		        android:scrollHorizontally="true"
+		        android:layout_below="@id/songname"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+    	</RelativeLayout>	
+	</RelativeLayout>
+</LinearLayout>

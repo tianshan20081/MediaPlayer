@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- -android:thumbOffset="25dip" android:layout_marginTop="113dip" android:layout_marginLeft="416dip" 
+	<include layout="@layout/layout_control"/> -->
+<com.weichuang.china.music.coverflow.CoverFlowWrapper
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_weight="1" 
+	android:layout_height="fill_parent" android:id="@+id/albumcoverflowwrapper">
+	<com.weichuang.china.music.coverflow.CoverFlow
+		android:id="@+id/albumcoverflow" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"/>
+	<!-- <TextView android:layout_width="wrap_content" android:layout_centerInParent="true" android:textColor="#FFFFFF"
+	android:layout_height="wrap_content" android:text="@string/testStr" android:textSize="30px"></TextView>-->
+	<com.weichuang.china.music.coverflow.CoverFlowSeekBar
+		android:id="@+id/albumcoverflowseekbar" android:layout_width="595px"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:thumb="@drawable/custom_seekbar_thumb"
+		android:progressDrawable="@drawable/custom_seekbar_back"
+		android:layout_alignParentBottom="true" android:layout_marginBottom="5px" />
+	<com.weichuang.china.music.coverflow.VerticalSeekBar
+		android:id="@+id/albumcoverflowseekbar_vertical" android:max="100"
+		android:thumb="@drawable/custom_seekbar_thumb_vertical"
+		android:progressDrawable="@drawable/custom_seekbar_back_vertical"
+		android:layout_height="595px" android:layout_width="10px"
+		android:thumbOffset="0px" android:layout_alignParentRight="true"
+		android:layout_marginRight="20px" android:layout_centerVertical="true"
+	>
+	</com.weichuang.china.music.coverflow.VerticalSeekBar>
+	<com.weichuang.china.music.coverflow.CoverFlowBackView
+		android:id="@+id/songsofalbumcontainer" android:visibility="gone"
+		android:orientation="vertical" android:layout_width="0px"
+		android:layout_height="0px" android:layout_centerInParent="true">
+		<RelativeLayout android:id="@+id/albuminfo"
+			android:layout_width="fill_parent" 
+			android:layout_height="55dip"
+			android:paddingRight="0px"
+			 android:background="#F2000000">
+			<CheckBox android:id="@+id/addalbum" android:visibility="invisible"
+				android:layout_alignParentRight="true" 
+				android:layout_alignParentBottom="true"
+				android:layout_width="45dip"
+				android:layout_height="41dip" android:button="@drawable/song_add_checkbox" />
+			<TextView android:id="@+id/artistname"
+				android:layout_alignParentLeft="true" android:textColor="#FFFFFFFF"
+				android:textSize="16sp" android:ellipsize="end" android:singleLine="true"
+				android:layout_width="200px" android:layout_height="wrap_content"
+				android:layout_alignParentTop="true" android:layout_marginLeft="10dip"
+				android:layout_marginTop="5dip" android:gravity="top" />
+			<TextView android:id="@+id/albumname"
+				android:layout_centerVertical="true" android:textColor="#FFFFFFFF"
+				android:textSize="20sp" android:ellipsize="end" android:singleLine="true"
+				android:layout_width="180dip" android:layout_height="wrap_content"
+				android:layout_below="@id/artistname"
+			    android:layout_alignLeft="@id/artistname"
+				android:gravity="top" />
+		</RelativeLayout>
+		<ListView android:id="@+id/songsofalbum" android:background="#B2000000"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:divider="@color/backview_divider" android:dividerHeight="1dip"
+			android:layout_weight="1"
+			android:headerDividersEnabled="true" android:footerDividersEnabled="true"
+			android:cacheColorHint="@drawable/transparent_background" />
+	</com.weichuang.china.music.coverflow.CoverFlowBackView>
+
+	<!--test code for tracing backview drawable -->
+	<ImageView android:visibility="gone"
+		android:layout_alignParentRight="true" android:id="@+id/test"
+		android:layout_width="435px" android:layout_height="435px" />
+	<!--test code for tracing backview drawable -->
+	
+</com.weichuang.china.music.coverflow.CoverFlowWrapper>
+

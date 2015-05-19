@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android" 
+android:layout_width = "fill_parent"
+android:layout_height = "fill_parent"
+android:id="@+id/background_id"
+android:background="@color/white"
+>
+	<LinearLayout
+	android:layout_width = "fill_parent"
+	android:layout_height = "fill_parent" 
+	android:orientation="horizontal" 
+	> 
+	<AutoCompleteTextView android:id="@+id/editview"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:hint="请输入流媒体地址" 
+        android:maxLength="100" 
+		android:dropDownVerticalOffset="1dip"
+		android:dropDownHorizontalOffset="-2dip"
+		android:scaleType="fitXY" 
+		android:ellipsize = "start"
+		android:singleLine="true" 
+		android:layout_weight="1"
+		android:layout_marginLeft="2.0dip"
+        android:completionThreshold="1"/> 
+		<Button 
+		    android:layout_weight="4"
+			android:layout_width = "fill_parent"
+			android:layout_height = "wrap_content"
+			android:id="@+id/wancheng"
+			android:text="播放"
+			android:layout_marginLeft="2.0dip"
+			android:layout_marginRight="2.0dip"
+		></Button> 
+	</LinearLayout>
+	
+	<LinearLayout
+	android:layout_centerInParent="true"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content" 
+	android:orientation="vertical" 
+	> 
+	<TextView 
+		    android:layout_weight="4"
+			android:layout_width = "fill_parent"
+			android:layout_height = "wrap_content"
+			android:text="例如：mms://114.80.221.20/A9"
+			android:layout_marginLeft="2.0dip"
+			android:layout_marginRight="2.0dip"
+		/>
+		<TextView 
+		    android:layout_weight="4"
+			android:layout_width = "fill_parent"
+			android:layout_height = "wrap_content"
+			android:text="例如：rtsp://live.android.maxlab.cn/maxtv-ln.sdp"
+			android:layout_marginLeft="2.0dip"
+			android:layout_marginRight="2.0dip"
+		/>
+	</LinearLayout>
+</RelativeLayout>

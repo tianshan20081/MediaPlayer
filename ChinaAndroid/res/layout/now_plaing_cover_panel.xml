@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright (c) 2009 VanceInfo  Ltd.
+ *
+ * All Rights Reserved.
+ */
+ android:background="@drawable/now_playing_cover_or_lyric_back"
+-->
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/music_coverpage" android:layout_width="350.0dip"
+	android:layout_height="240px"
+    android:background="@drawable/default_cd"
+	android:layout_marginTop="5px" 
+	android:layout_centerHorizontal="true"
+	android:gravity="center_horizontal" android:scaleType="fitXY" />
+

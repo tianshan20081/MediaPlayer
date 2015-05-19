@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	
+<com.weichuang.china.music.PageNowPlayingView
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/page_now_playing_view_parent"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/bg">
+	
+	
+	<ImageView android:id="@+id/now_playing_middle_winde"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:visibility="gone"
+		android:background="@drawable/now_playing_middle_cloud" />   
+		
+
+	<include android:id="@+id/now_playing_switcher_lyric_cover_final"
+		android:layout_width="fill_parent" 
+		android:layout_height="260dip"
+		layout="@layout/lyric_cover_switcher" 
+		android:layout_centerInParent="true"
+		android:layout_marginTop="100dip"
+		android:layout_centerHorizontal="true"
+		android:layout_marginLeft="45dip" />
+	<RelativeLayout
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical" 
+		
+	> 
+	<ImageView android:id="@+id/now_playing_imgs_matrix_flame"
+		android:layout_width="300px" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true" 
+		android:layout_gravity="center_horizontal"
+		android:background="@drawable/spin_animation" />
+	
+		<ImageView android:id="@+id/now_playing_img_top_title_back"
+		android:visibility="gone"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="60dip" 
+		android:layout_gravity="center_horizontal"
+		android:layout_centerHorizontal="true" /> 
+		
+		<LinearLayout
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="40dip"
+		android:orientation="vertical" 
+		android:layout_gravity="center_horizontal"
+		android:gravity="center_horizontal"
+		android:layout_centerHorizontal="true"
+		>
+ 
+			<TextView android:id="@+id/now_playing_txt_artist_name"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" 
+			android:textSize="14dip" android:layout_centerHorizontal="true"
+			android:text="@string/now_playing_artist_name"
+			android:focusable="true" android:singleLine="true" android:ellipsize="end"
+	        android:textColor="#E5E5E5" />
+			
+			<TextView android:id="@+id/now_playing_txt_track_name"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+			    android:layout_centerHorizontal="true"
+				android:layout_marginTop="-5px" android:layout_below="@id/now_playing_txt_artist_name" android:text="@string/now_playing_track_name"
+				android:textSize="18dip" android:textStyle="bold" android:textColor="#E5E5E5"
+				android:focusable="true" android:singleLine="true" android:ellipsize="end" />
+				
+			<TextView android:id="@+id/now_playing_txt_album_name"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"
+				android:text="@string/now_playing_track_name" 
+				android:textSize="14dip" android:layout_below="@id/now_playing_txt_track_name"
+				android:focusable="true" android:singleLine="true" android:ellipsize="end"
+				android:textColor="#B2B2B2" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:orientation="vertical" 
+			android:layout_gravity="center_horizontal" 
+			android:layout_marginBottom="30dip" 
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true"
+		>
+		
+		   <TextView android:id="@+id/online_buffering"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true" 
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:textSize="14dip"  />
+			
+			<RelativeLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"  
+			>
+			  <TextView android:id="@+id/music_playingtime"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_marginRight="40dip"
+				android:textSize="14dip"  />
+			
+			</RelativeLayout>
+		  <SeekBar  
+	  		android:id="@+id/now_playing_seekbar_music_playing"
+			android:progressDrawable="@drawable/play_seekbar_port_style" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:paddingLeft="8px"
+			android:paddingRight="8px"
+			android:layout_gravity="center_horizontal" 
+			android:minHeight="7px"
+			android:maxHeight="7px" 
+			android:progress="0" 
+			android:thumb="@drawable/seek_thumb_normal"
+			android:max="1000" 
+		 /> 
+			 <LinearLayout
+			 	android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:layout_gravity="center_horizontal" 
+				android:gravity="center_horizontal" 
+				android:orientation="horizontal" 
+			    >
+				 <Button 
+			  		android:id="@+id/now_playing_btn_shuffle"
+					android:layout_width="60dip" 
+					android:layout_height="50dip"
+				  	android:background="@drawable/btn_now_playing_normal_order_selector" 
+				    android:layout_marginLeft="40dip"
+				 /> 
+				 
+				<Button 
+					android:id="@+id/now_playing_btn_previous"
+					android:layout_width="60dip" 
+					android:layout_height="50dip"
+					android:background="@drawable/btn_now_playing_previous"  
+		 		   /> 
+		 		 
+		 		 <Button 
+		 		 	android:id="@+id/now_playing_btn_play"
+					android:layout_width="60dip" 
+					android:layout_height="50dip" 
+					android:background="@drawable/btn_now_playing_play_selector" 
+				/>
+				<Button 
+					android:id="@+id/now_playing_btn_next"
+					android:layout_width="60dip" 
+					android:layout_height="50dip"
+					android:background="@drawable/btn_now_playing_next_selector" 
+			   /> 
+			 	<Button android:layout_width="10px" android:soundEffectsEnabled="false"
+				android:layout_height="10px" android:id="@+id/now_playing_matrix_animation_invoker"
+				android:visibility="gone" />
+				
+				<Button android:id="@+id/now_playing_btn_cover_lyric_switcher"
+				android:layout_width="60dip" 
+				android:layout_height="50dip"
+				android:background="@drawable/btn_lyrics_cover_switcher" 
+				 android:layout_marginRight="40dip"
+			   /> 
+			 </LinearLayout>
+			 
+		 
+		 </LinearLayout>
+	</RelativeLayout>   
+
+	<ImageView android:id="@+id/now_playing_wide_cloud"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true" android:visibility="gone" /> 
+ 
+</com.weichuang.china.music.PageNowPlayingView>

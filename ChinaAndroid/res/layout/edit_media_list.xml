@@ -1,0 +1,30 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+<include layout="@layout/edit_section" />
+<com.weichuang.china.music.TouchInterceptor
+    android:id="@+id/medialist"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:textSize="18sp"
+    android:cacheColorHint="#00000000"
+    android:drawSelectorOnTop="false"
+    android:fastScrollEnabled="true" 
+    
+    /> 
+    
+    	
+    <!--<com.weichuang.china.video.view.MyListView  
+		android:id="@+id/medialist"
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:scrollingCache="true" 
+	    android:cacheColorHint="#00000000"  
+	    android:smoothScrollbar="true" 
+	    android:layout_weight="1"
+        android:textSize="18sp"
+	    android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="true" 
+		/>
+    
+    
+--></merge>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/relativeLayout01" 
+ xmlns:android="http://schemas.android.com/apk/res/android" 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content" 
+android:background="@drawable/bg"
+ android:layout_gravity="center_vertical|center_horizontal" 
+>
+ 
+	 <ImageView
+	  android:layout_width="wrap_content"
+	 android:layout_height="wrap_content" 
+	 android:id="@+id/imageview01"
+	 android:src="@drawable/icon"
+	 android:layout_centerInParent="true"
+	 ></ImageView>
+	 
+	 <TextView
+	 	  android:layout_width="wrap_content"
+		 android:layout_height="wrap_content" 
+		 android:text="@string/app_name"
+		 android:layout_below="@id/imageview01"
+		 android:id="@+id/textview01"
+		 android:textSize="20dip" 
+	 ></TextView>
+</RelativeLayout>

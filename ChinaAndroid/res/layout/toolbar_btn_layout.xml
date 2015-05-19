@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/toolbar_section"
+		android:orientation="horizontal" 
+		android:layout_alignParentBottom="true"
+		android:layout_height="60dip"
+		android:visibility="gone"
+		android:background="@drawable/shape_normal_main_table"
+		
+		android:layout_width="fill_parent">
+ 	<com.weichuang.china.music.ToolBarButton 
+ 			android:layout_width="wrap_content" 
+ 			android:layout_height="60dip"
+			android:singleLine="true" 
+			android:id="@+id/toolbar_btn"
+			android:layout_alignParentBottom="true"	
+			android:gravity="center_horizontal" 
+			android:text="@string/music_detail_btn_delete"
+			android:layout_weight="1"  
+			 />
+			 
+			
+</LinearLayout>

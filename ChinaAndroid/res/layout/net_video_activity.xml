@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@+id/laytout_beij" 
+ android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"> 
+	    <com.weichuang.china.video.view.ScrollableViewGroup  
+		    android:id="@id/ViewFlipper" 
+		    android:layout_gravity="center_vertical" 
+			android:gravity="center_vertical" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:layout_marginLeft="15dip"
+			android:layout_marginRight="10dip"
+		 >
+	        <include android:id="@id/frmMain" layout="@layout/grid" />  
+	        <include android:id="@id/frmList" layout="@layout/list" /> 
+	    </com.weichuang.china.video.view.ScrollableViewGroup>
+    </RelativeLayout> 

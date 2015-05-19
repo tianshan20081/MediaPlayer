@@ -1,0 +1,50 @@
+{"videos":[
+{"title":"CCTV-1","url":"http://cntv.itv.doplive.com.cn/live591/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv1.gif","flags":"6"}
+,{"title":"视频URL(Iphone 64K)","url":"http://stream.2500city.com:1935/suzhoutv/livetv11.stream/playlist.m3u8","image":"http://i0597.com/cntv/images/cctv2.gif","flags":"6"}
+,{"title":"视频URL(Iphone 500K)","url":"http://stream.2500city.com:1935/suzhoutv/livetv12.stream/playlist.m3u8","image":"http://i0597.com/cntv/images/cctv2.gif","flags":"6"}
+,{"title":"视频URL(Ipad 64K)","url":"http://stream.2500city.com:1935/suzhoutv/livetv13.stream/playlist.m3u8","image":"http://i0597.com/cntv/images/cctv2.gif","flags":"6"}
+,{"title":"视频URL(Ipad 500K)","url":"http://stream.2500city.com:1935/suzhoutv/livetv13.stream/playlist.m3u8","image":"http://i0597.com/cntv/images/cctv2.gif","flags":"6"}
+,{"title":"广播URL(Iphone 500K)","url":"http://stream.2500city.com:1935/suzhoutv/liveradio4.stream/playlist.m3u8","image":"http://i0597.com/cntv/images/cctv2.gif","flags":"6"}
+,{"title":"广播URL(Ipad 64K)","url":"http://stream.2500city.com:1935/suzhoutv/liveradio4.stream/playlist.m3u8","image":"http://i0597.com/cntv/images/cctv2.gif","flags":"6"}
+,{"title":"广播URL(Ipad 500K)","url":"http://stream.2500city.com:1935/suzhoutv/liveradio4.stream/playlist.m3u8","image":"http://i0597.com/cntv/images/cctv2.gif","flags":"6"}
+,{"title":"CCTV-2","url":"http://cntv.itv.doplive.com.cn/live592/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv2.gif","flags":"6"}
+,{"title":"CCTV-3","url":"http://cntv.itv.doplive.com.cn/live593/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv3.gif","flags":"6"}
+,{"title":"CCTV-4","url":"http://cntv.itv.doplive.com.cn/live594/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv4.gif","flags":"6"}
+,{"title":"CCTV-5","url":"http://cntv.itv.doplive.com.cn/live595/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv5.gif","flags":"6"}
+,{"title":"CCTV-6","url":"http://cntv.itv.doplive.com.cn/live512/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv6.gif","flags":"6"}
+,{"title":"CCTV-7","url":"http://cntv.itv.doplive.com.cn/live597/index_900k.m3u8","image":"http://i0597.com/cntv/images/cctv7.gif","flags":"6"}
+,{"title":"CCTV-8","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV8&1.m3u8","image":"http://i0597.com/cntv/images/cctv8.gif","flags":"6"}
+,{"title":"CCTV-9","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV9&1.m3u8","image":"http://i0597.com/cntv/images/cctv9.gif","flags":"6"}
+,{"title":"CCTV-10","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV10&1.m3u8","image":"http://i0597.com/cntv/images/cctv10.gif","flags":"6"}
+,{"title":"CCTV-11","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV11&1.m3u8","image":"http://i0597.com/cntv/images/cctv11.gif","flags":"6"}
+,{"title":"CCTV-12","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV12&1.m3u8","image":"http://i0597.com/cntv/images/cctv12.gif","flags":"6"}
+,{"title":"CCTV-13","url":"http://cntv.itv.doplive.com.cn/live603/index_900k.m3u8","image":"http://i0597.com/cntv/images/cctv13.gif","flags":"6"}
+,{"title":"广东卫视","url":"http://t.live.cntv.cn/20110928/guangdongtv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201108/201181817022311107.png","flags":"12"}
+,{"title":"湖南卫视","url":"http://cms.doplive.com.cn/video1/index_multi.m3u8?date=20120302220001&uid=0&rnd=2012030222000112069&deviceid=123&key=5311e457e8b47402676dae4cd2368118&count=1330675490","image":"http://c1.wcdma186.net/res/wtv_cate_images/201112/2011126144635222463.png","flags":"1"}
+,{"title":"江苏卫视","url":"http://cms.doplive.com.cn/live317/index_multi.m3u8?date=20120302220001&uid=0&rnd=2012030222000194921&deviceid=123&key=b2df5256df43ffaa3ae2b3f498fba7d1&count=1330675545","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/2011711115818454232.png","flags":"2"}
+,{"title":"浙江卫视","url":"http://cms.doplive.com.cn/live347/index_multi.m3u8?date=20120302220001&uid=0&rnd=2012030222000185729&deviceid=123&key=c6f812e83b541dbde2d1d2497f73bec3&count=1330675970","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171111596340819.png","flags":"3"}
+,{"title":"北京卫视","url":"http://tvm.3g.cntv.cn/approve/live?channel=BTV1&type=iphone&xx=m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+,{"title":"北京文娱","url":"http://t.live.cntv.cn/20110928/btv2.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+,{"title":"北京科教","url":"http://t.live.cntv.cn/20110928/btv3.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+,{"title":"北京影视","url":"http://t.live.cntv.cn/20110928/btv4.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+,{"title":"北京财经","url":"http://t.live.cntv.cn/20110928/btv5.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+,{"title":"北京体育","url":"http://t.live.cntv.cn/20110928/btv6.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+,{"title":"北京生活","url":"http://t.live.cntv.cn/20110928/btv7.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+,{"title":"北京青年","url":"http://t.live.cntv.cn/20110928/btv8.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+,{"title":"北京新闻","url":"http://t.live.cntv.cn/20110928/btv9.m3u8 ","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/201171112012134953.png","flags":"4"}
+,{"title":"重庆卫视","url":"http://123.147.160.11:1935/rtplive/cqtv.sdp/playlist.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201111/2011113164033580557.png","flags":"5"}
+,{"title":"辽宁卫视","url":"rtsp://live.android.maxlab.cn/maxtv-ln.sdp","image":"http://c1.wcdma186.net/res/wtv_cate_images/201106/201161311194634575.png","flags":"22"}
+,{"title":"凤凰资讯台","url":"http://210.51.19.156/live/iphone/zxt/index_256k.m3u8","image":"http://img2.nipic.com/2008-03-06/200836104855511_1.jpg","flags":"22"}
+,{"title":"凤凰中文台","url":"http://210.51.19.156/live/iphone/zwt/index_256k.m3u8 ","image":"http://img2.nipic.com/2008-03-06/200836104855511_1.jpg","flags":"22"}
+,{"title":"安徽卫视","url":"http://tvm.3g.cntv.cn/approve/live?channel=AnHuiTV&type=iphone$xx=m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201106/201161491350570394.png","flags":"21"}
+,{"title":"东方卫视","url":"http://t.live.cntv.cn/20110928/dongfangtv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201107/2011711113755483630.png","flags":"10"}
+,{"title":"深圳卫视","url":"http://t.live.cntv.cn/20110928/shenzhentv.m3u8","image":"http://t3.baidu.com/it/u=1195522406,2695599669&fm=0&gp=0.jpg","flags":"10"}
+,{"title":"山东卫视","url":"http://t.live.cntv.cn/20110928/shandongtv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201103/2011328153054706884.png","flags":"7"}
+,{"title":"四川卫视","url":"http://t.live.cntv.cn/20110928/sichuantv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201103/2011328153118918644.png","flags":"6"}
+,{"title":"天津卫视","url":"http://t.live.cntv.cn/20110928/tianjintv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201108/2011818172649282671.png","flags":"13"}
+,{"title":"黑龙江卫视","url":"http://t.live.cntv.cn/20110928/heilongjiangtv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201106/201161491327168722.png","flags":"28"}
+,{"title":"云南卫视","url":"http://t.live.cntv.cn/20110928/yunnantv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201106/201161491318966847.png","flags":"23"}
+,{"title":"湖北卫视","url":"http://t.live.cntv.cn/20110928/hubeitv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201106/20116149139141290.png","flags":"24"}
+,{"title":"江西卫视","url":"http://t.live.cntv.cn/20110928/jiangxitv.m3u8","image":"http://c1.wcdma186.net/res/wtv_cate_images/201106/20116149145141171.png","flags":"20"}
+,{"title":"广西卫视","url":"http://cms.doplive.com.cn/live309/index_multi.m3u8?date=20120302220001&uid=0&rnd=2012030222000165096&deviceid=123&key=5c97d0cdc8528aaa51987208afdd4933&count=1330675351","image":"http://c1.wcdma186.net/res/wtv_cate_images/201106/201161491413896809.png","flags":"19"}
+]}

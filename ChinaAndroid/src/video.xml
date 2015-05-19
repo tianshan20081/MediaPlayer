@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<videos>  
+	<video>
+		<title>优酷</title>
+		 <url>http://3g.youku.com/smartphone/tv_recommend.jsp</url>
+		 <flags>1</flags>
+	</video>
+	
+	<video>
+		<title>土豆网</title>
+		<url>http://m.tudou.com</url>
+		 <flags>3</flags> 
+	</video> 
+	
+	<video>
+		<title>乐视网</title>
+		 <url>http://m.letv.com/</url>
+		  <flags>4</flags>
+	</video>  
+	
+	<video>
+		<title>PPTV</title>
+		 <url>http://m.pptv.com/index.do</url>
+		  <flags>8</flags>
+	</video> 
+	<video>
+		 <title>新浪视频</title>
+		 <url>http://3g.sina.com.cn/3g/video/</url>
+		 <flags>11</flags>
+	</video> 
+	
+	<video>
+		<title>凤凰视频</title>
+		 <url>http://i.ifeng.com/video/vifeng?mid=75ucFz</url>
+		 <flags>12</flags>
+	</video> 
+	
+	<video>
+		  <title>第一视频</title>
+		 <url>http://3g.v1.cn/</url>
+		 <flags>13</flags>
+	</video> 
+	
+	
+	
+	<video>
+		<title>电影网</title>
+		 <url>http://m1905.cn/</url>
+		  <flags>9</flags>
+	</video> 
+	
+	
+	<video>
+		<title>爱奇艺</title>
+		 <url>http://3g.iqiyi.com/</url> 
+		  <flags>2</flags>
+	</video>  
+	
+	
+	
+	<video>
+		<title>56网</title>
+		 <url>http://3g.56.com/</url>
+		  <flags>6</flags> 
+	</video> 
+	
+	<video>
+		<title>激动网</title>
+		 <url>http://3g.joy.cn/</url>
+		  <flags>7</flags>
+	</video> 
+	
+	
+	<video>
+		<title>几分钟</title>
+		 <url>http://m.jifenzhong.com/</url>
+		 <flags>19</flags>
+	</video> 
+	
+	<video>
+	
+		<title>看看新闻网</title>
+		 <url>http://w.kankanews.com/mtv-portal-wap/index.action</url>
+		 <flags>20</flags>
+	</video> 
+	
+	
+	
+	
+	<video>
+		<title>迈视网</title>
+		 <url>http://3g.maxtv.cn/</url>
+		  <flags>10</flags>
+	</video> 
+	
+	
+	<video>
+		<title>3G门户</title>
+		 <url>http://video.gglive.cn/</url>
+		 <flags>17</flags>
+	</video> 
+	
+	<video>
+		<title>搜狐视频</title>
+		 <url>http://v.wap.sohu.com/softrpc_n/xc/xuanindex.html</url>
+		 <flags>18</flags>
+	</video> 
+	
+	<video>
+		  <title>100TV</title>
+		 <url>http://wap.100tv.com/</url>
+		 <flags>14</flags>
+	</video> 
+	
+	
+	<video>
+		<title>万花筒</title>
+		 <url>http://wap.wht.cn</url>
+		 <flags>21</flags>
+	</video> 
+	
+	
+	<video>
+		<title>乌龙视频</title>
+		 <url>http://wlwap.com/link/gourl.aspx?id=1000_56</url>
+		  <flags>16</flags>
+	</video> 
+	
+	
+	
+	<!--
+	
+	<video>
+		<title>天翼视讯</title>
+		 <url>http://v.vnet.mobi/portal/wap/ppb/shsp/index.jsp?channelId=10350711</url>
+		  <flags>16</flags>
+	</video> 
+	
+	<video>
+		<title>腾讯视频</title>
+		 <url>http://3g.v.qq.com/</url>
+		  <flags>22</flags>
+	</video>
+	
+	<video>
+		<title>新华网</title>
+		 <url>http://3g.news.cn/video/index.htm</url>
+		  <flags>5</flags>
+	</video> 
+	<video>
+		<title>酷六网</title>
+		 <url>http://www.ku6.com/</url>
+		  <flags>5</flags>
+	</video> 
+	
+	-->
+	
+	
+	<!--<video>
+		<title>环球时报</title>
+		 <url>http://wap.huanqiu.com/txnews/index.do</url>
+		  <flags>5</flags>
+	</video> -->
+	
+	
+	
+	
+	<video>
+		  <title>麦视视频</title>
+		 <url>http://wap.hizippo.cn</url>
+		 <flags>15</flags>
+	</video>
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</videos>

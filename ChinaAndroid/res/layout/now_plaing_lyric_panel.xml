@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!--
+		/* Copyright (c) 2009 VanceInfo Ltd. * * All Rights Reserved. */
+	-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lenovomusic="http://schemas.android.com/apk/res/com.weichuang.china.music"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	<ScrollView android:layout_width="fill_parent" 
+		android:layout_marginTop="25px" 
+		android:layout_marginBottom="15px" 
+		android:layout_height="240px"
+		android:scrollbars="vertical"
+		>
+		<TextView android:id="@+id/lyrics_panel"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:textSize="16sp"  
+			android:textColor="#a0a0a0" 
+			android:gravity="center"
+			android:focusable="true" 
+			android:focusableInTouchMode="true" 
+			android:bufferType="spannable"
+			android:clickable="true" android:text="@string/no_lyrics" /><!--
+			android:background="@drawable/lyric_bg"
+	--></ScrollView>
+	<com.weichuang.china.music.LyricsTextView 
+	  android:id="@+id/lyrics_text_view" 
+		android:layout_marginTop="25px" 
+		android:layout_marginBottom="25px" 
+		android:layout_width="fill_parent" 
+		android:layout_height="240px"
+		android:bufferType="spannable"
+		android:textSize="14sp" 
+		android:padding="2dip"
+	    android:visibility="gone" 
+		  />
+		  <!--
+		  
+		  android:background="@android:drawable/dark_header"
+		  lenovomusic:textPitch="24px"
+	    lenovomusic:textHighlightColor="#FFFFFF"
+		lenovomusic:textNormalColor="#999999" 
+		
+		
+		  <com.weichuang.china.music.LyricsTextView 
+	   android:layout_marginTop="45px" 
+	    android:background="@android:drawable/dark_header"
+		android:layout_width="fill_parent" 
+		android:layout_height="240px" 
+		android:bufferType="spannable"
+		android:id="@+id/lyrics_text_view" 
+		android:visibility="gone" 
+		android:textSize="23px" 
+		  />
+--></LinearLayout>

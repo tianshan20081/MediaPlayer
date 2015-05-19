@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="60dip">
+
+	<TextView android:id="@+id/songname" 
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="5dip" android:layout_centerVertical="true"
+		android:layout_marginRight="4dip"
+		android:ellipsize="end" android:singleLine="true" android:textSize="20sp"
+		android:textColor="@color/subtitle_color" android:layout_height="wrap_content"
+		android:maxWidth="130dip"
+		android:layout_width="wrap_content" />
+
+	<TextView android:id="@+id/duration"
+		android:layout_centerVertical="true" 
+		android:layout_marginRight="4dip"
+		android:layout_marginLeft="4dip"
+		android:gravity="right" android:textSize="20sp"
+		android:textColor="@color/subtitle_color" 
+		android:layout_toRightOf="@id/songname"
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" />
+		
+		
+			
+	<ImageView android:id="@+id/playindicator"
+		android:layout_toRightOf="@id/duration"
+		android:layout_width="wrap_content" 
+		android:layout_centerVertical="true" 
+		android:layout_marginRight="4dip"
+		android:layout_height="wrap_content"
+		android:src="@drawable/play_indicator" />
+	
+	<CheckBox android:id="@+id/addicon" 
+	    android:button="@drawable/song_add_checkbox"
+		android:layout_alignParentRight="true" 
+		android:layout_marginRight="2dip"
+		android:layout_centerVertical="true"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:focusable="false" />
+	
+	
+
+</RelativeLayout>

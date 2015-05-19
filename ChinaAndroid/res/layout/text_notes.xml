@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright (c) 2009 VanceInfo  Ltd.
+ *
+ * All Rights Reserved.
+ */
+-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/panel_text_notes"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:visibility="gone"
+    android:gravity="center"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp"
+    android:text="@string/search_init_text"
+    />

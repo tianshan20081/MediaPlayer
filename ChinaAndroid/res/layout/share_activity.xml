@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background_id"
+	android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    
+     <TextView 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:text="@string/sharetext"
+        android:layout_marginBottom="20dip"
+        android:id="@+id/shareText"/>
+    
+   
+    
+    <Button 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/shareText"
+        android:text="腾讯微博"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:id="@+id/shareTotenx"
+   />
+      
+       <Button 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/shareTotenx"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:text="新浪微博"
+        android:id="@+id/shareTosina"
+    />
+    
+    <Button 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/shareTosina"
+        android:text="人人网"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:id="@+id/shareToRenren"
+         
+        />
+    
+    <!--<Button 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_above="@+id/sharetxt"
+        android:text="分享图片到腾讯微博"
+        android:id="@+id/shareimg_template"/>
+    
+    <Button 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_above="@+id/shareimg"
+        android:text="分享文字"
+        android:id="@+id/sharetxt"/>
+       
+    <Button 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="分享图片"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/shareimg"/>
+        
+--></RelativeLayout>
