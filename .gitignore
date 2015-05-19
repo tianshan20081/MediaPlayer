@@ -1,0 +1,12 @@
+bin/
+gen/
+.settings/
+.classpath/
+*.DS_Store
+*.apk
+*.ap_
+*.dex
+*.class
+.gradle
+*.log
+
